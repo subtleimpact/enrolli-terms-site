@@ -1,0 +1,661 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Terms of Service | Enrolli</title>
+<meta name="description" content="Enrolli's Terms of Service for parents, guardians, and students.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@400;500;600;700&family=Nunito:wght@500;700;800;900&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --orange: #F4944B;
+    --deep-orange: #E07230;
+    --coral: #E47563;
+    --yellow: #FFE566;
+    --yellow-pale: #FFFBE8;
+    --green: #CAD592;
+    --green-dark: #87AC48;
+    --blue: #C1DEEA;
+    --ink: #2A2118;
+    --muted: #4A3828;
+    --warm-white: #FFFDF5;
+    --warm-cream: #FFF8E6;
+    --card-white: #FFFFFF;
+    --accent-bg: #FFF3CC;
+    --border: #F0E8D8;
+  }
+
+  * { box-sizing: border-box; }
+
+  body {
+    margin: 0;
+    background: var(--warm-white);
+    color: var(--muted);
+    font-family: 'Nunito', Arial, sans-serif;
+    font-weight: 500;
+    line-height: 1.65;
+    font-size: 16px;
+  }
+
+  a { color: var(--deep-orange); }
+  a:hover { color: var(--orange); }
+
+  h1, h2, h3 {
+    font-family: 'Fredoka', cursive;
+    font-weight: 400;
+    color: var(--ink);
+    margin-top: 0;
+  }
+
+  .wordmark {
+    font-family: 'Fredoka', cursive;
+    font-weight: 700;
+    font-size: 28px;
+    letter-spacing: 0.5px;
+    text-decoration: none;
+  }
+  .wordmark span:nth-child(1) { color: #F4944B; }
+  .wordmark span:nth-child(2) { color: #E07230; }
+  .wordmark span:nth-child(3) { color: #F4944B; }
+  .wordmark span:nth-child(4) { color: #E47563; }
+  .wordmark span:nth-child(5) { color: #F4944B; }
+  .wordmark span:nth-child(6) { color: #E07230; }
+  .wordmark span:nth-child(7) { color: #E47563; }
+  .wordmark span.dot { color: #87AC48; }
+
+  header {
+    background: var(--warm-cream);
+    border-bottom: 2px solid var(--border);
+    padding: 22px 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .hero {
+    max-width: 760px;
+    margin: 0 auto;
+    padding: 48px 24px 24px;
+    text-align: center;
+  }
+
+  .eyebrow {
+    display: inline-flex;
+    align-items: center;
+    gap: 7px;
+    background: var(--yellow);
+    border: 1.5px solid var(--orange);
+    border-radius: 100px;
+    padding: 6px 16px;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 900;
+    font-size: 11px;
+    letter-spacing: 2.5px;
+    color: var(--ink);
+    text-transform: uppercase;
+    margin-bottom: 18px;
+  }
+  .eyebrow::before {
+    content: "";
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    background: var(--orange);
+    display: inline-block;
+  }
+
+  .hero h1 {
+    font-size: 38px;
+    margin-bottom: 10px;
+  }
+
+  .meta-dates {
+    font-size: 14px;
+    color: var(--muted);
+    opacity: 0.85;
+  }
+
+  .lede {
+    max-width: 640px;
+    margin: 18px auto 0;
+    font-size: 16px;
+  }
+
+  main {
+    max-width: 760px;
+    margin: 0 auto;
+    padding: 8px 24px 80px;
+  }
+
+  nav.jumpnav {
+    background: var(--card-white);
+    border: 2px solid var(--border);
+    border-radius: 18px;
+    padding: 20px 22px;
+    margin: 24px 0 48px;
+  }
+  nav.jumpnav p {
+    margin: 0 0 12px;
+    font-family: 'Fredoka', cursive;
+    font-weight: 500;
+    font-size: 15px;
+    color: var(--ink);
+  }
+  nav.jumpnav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+  nav.jumpnav a {
+    display: inline-block;
+    text-decoration: none;
+    background: var(--accent-bg);
+    border: 1.5px solid var(--orange);
+    color: var(--ink);
+    font-weight: 800;
+    font-size: 13.5px;
+    padding: 8px 18px;
+    border-radius: 100px;
+    transition: background 0.15s ease;
+  }
+  nav.jumpnav a:hover {
+    background: var(--yellow);
+  }
+
+  section.doc-section {
+    margin-bottom: 56px;
+    scroll-margin-top: 24px;
+  }
+
+  section.doc-section > h2.section-title {
+    font-size: 28px;
+    padding-bottom: 10px;
+    border-bottom: 3px solid var(--orange);
+    margin-bottom: 6px;
+  }
+
+  .section-subtitle {
+    font-size: 14px;
+    font-weight: 800;
+    color: var(--deep-orange);
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-bottom: 24px;
+  }
+
+  .callout {
+    background: var(--yellow-pale);
+    border: 2px solid var(--yellow);
+    border-radius: 14px;
+    padding: 18px 22px;
+    margin: 0 0 32px;
+    font-size: 15px;
+  }
+  .callout strong { color: var(--ink); }
+
+  h3.sub {
+    font-size: 20px;
+    margin-top: 34px;
+    margin-bottom: 8px;
+    color: var(--ink);
+  }
+
+  h4.minor {
+    font-family: 'Nunito', sans-serif;
+    font-weight: 900;
+    font-size: 15px;
+    color: var(--ink);
+    margin: 20px 0 6px;
+  }
+
+  p { margin: 0 0 14px; }
+
+  ul, ol {
+    margin: 0 0 16px;
+    padding-left: 22px;
+  }
+  li { margin-bottom: 8px; }
+
+  ul.dot li::marker { color: var(--orange); }
+
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0 28px;
+    font-size: 14.5px;
+    background: var(--card-white);
+    border: 2px solid var(--border);
+    border-radius: 12px;
+    overflow: hidden;
+  }
+  th, td {
+    text-align: left;
+    padding: 10px 14px;
+    border-bottom: 1px solid var(--border);
+  }
+  th {
+    background: var(--accent-bg);
+    font-family: 'Nunito', sans-serif;
+    font-weight: 900;
+    color: var(--ink);
+    font-size: 13px;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+  }
+  tr:last-child td { border-bottom: none; }
+
+  .divider {
+    border: none;
+    border-top: 2px dashed var(--border);
+    margin: 44px 0;
+  }
+
+  .back-to-top {
+    display: inline-block;
+    margin-top: 8px;
+    font-size: 13px;
+    font-weight: 800;
+    color: var(--deep-orange);
+    text-decoration: none;
+  }
+
+  .contact-card {
+    background: var(--card-white);
+    border: 2px solid var(--border);
+    border-radius: 16px;
+    padding: 24px;
+    font-size: 15px;
+  }
+  .contact-card p { margin: 0 0 6px; }
+
+  footer {
+    background: var(--warm-cream);
+    border-top: 2px solid var(--border);
+    padding: 40px 24px;
+    text-align: center;
+  }
+  footer .wordmark { font-size: 22px; display: block; margin-bottom: 14px; }
+  footer .socials { margin-bottom: 14px; font-size: 14px; }
+  footer .socials a { margin: 0 8px; font-weight: 800; text-decoration: none; }
+  footer .copy { font-size: 12.5px; color: var(--muted); opacity: 0.8; }
+  footer .copy a { color: var(--muted); }
+
+  strong { color: var(--ink); }
+
+  @media (max-width: 600px) {
+    .hero h1 { font-size: 30px; }
+    nav.jumpnav ul { gap: 8px; }
+  }
+</style>
+</head>
+<body>
+
+<header>
+  <a href="https://myenrolli.com" class="wordmark" aria-label="Enrolli home">
+    <span>e</span><span>n</span><span>r</span><span>o</span><span>l</span><span>l</span><span>i</span><span class="dot">.</span>
+  </a>
+</header>
+
+<div class="hero">
+  <div class="eyebrow">TERMS OF SERVICE</div>
+  <h1>Enrolli Terms of Service</h1>
+  <p class="meta-dates">Effective Date: August 1, 2026 &nbsp;|&nbsp; Last Updated: July 14, 2026</p>
+  <p class="lede">These Terms govern how families and students use the Enrolli platform at myenrolli.com. Enrolli is operated by Subtle Impact Enterprises LLC, an Indiana Limited Liability Company. By creating an account or using Enrolli, you agree to these Terms.</p>
+</div>
+
+<main>
+
+  <nav class="jumpnav" aria-label="Jump to section">
+    <p>Jump to:</p>
+    <ul>
+      <li><a href="#overview">Overview</a></li>
+      <li><a href="#parents">For Parents &amp; Guardians</a></li>
+      <li><a href="#students">For Students</a></li>
+    </ul>
+  </nav>
+
+  <!-- OVERVIEW -->
+  <section class="doc-section" id="overview">
+    <h2 class="section-title">Overview</h2>
+    <div class="section-subtitle">Who these Terms apply to</div>
+
+    <p>Enrolli is a college search and matching platform for high school students and their families. These Terms of Service are written in two parts:</p>
+    <ul class="dot">
+      <li><strong>For Parents &amp; Guardians</strong> — the account holder terms, since parents and legal guardians create and manage Enrolli accounts.</li>
+      <li><strong>For Students</strong> — a plain-language explanation of the platform for the student using it, written to be clear and age-appropriate.</li>
+    </ul>
+    <p>Both parts work together. A parent or guardian's agreement to the Parent &amp; Guardian Terms is what legally governs data collection and sharing on the account. The Student Terms exist so students understand what Enrolli does and what their rights are.</p>
+    <p>This Terms of Service is incorporated alongside our <a href="https://privacy.myenrolli.com">Privacy Policy</a>, which describes in full detail how we collect, use, store, and share information.</p>
+  </section>
+
+  <hr class="divider">
+
+  <!-- PARENTS -->
+  <section class="doc-section" id="parents">
+    <h2 class="section-title">For Parents &amp; Guardians</h2>
+    <div class="section-subtitle">Parent &amp; Guardian Terms of Service</div>
+
+    <div class="callout">
+      Enrolli is operated by Subtle Impact Enterprises LLC, an Indiana Limited Liability Company ("Enrolli," "we," "our," or "us"). Our business address is Evansville, Vanderburgh County, Indiana. Contact: <a href="mailto:hello@myenrolli.com">hello@myenrolli.com</a>.
+    </div>
+
+    <h3 class="sub">1. Who May Use Enrolli</h3>
+    <p>Enrolli accounts are created and managed by parents or legal guardians ("you") on behalf of enrolled students. You must be at least 18 years old to create an Enrolli account. You are responsible for all activity on your account and your student's linked account.</p>
+    <h4 class="minor">Age requirements for students:</h4>
+    <ul class="dot">
+      <li>Students under 13 are not permitted on the platform.</li>
+      <li>Students ages 13 through 15 require your affirmative parental consent for all data collection and for College Connection participation. A separate, explicit consent step is required for College Connection during onboarding — it is not implied by agreeing to these Terms.</li>
+      <li>Students ages 16 through 17 require your parental consent for data sharing purposes. Your student will also separately acknowledge the College Connection feature in age-appropriate language during their own onboarding.</li>
+    </ul>
+    <p>By creating an account and linking a student, you represent and warrant that you are the parent or legal guardian of that student and that you have the legal authority to provide consent on their behalf.</p>
+
+    <h3 class="sub">2. Subscription Tiers</h3>
+    <p>Enrolli offers two consumer subscription tiers:</p>
+    <table>
+      <thead>
+        <tr><th>Feature</th><th>Tier 1 — Database Access</th><th>Tier 2 — Full Access</th></tr>
+      </thead>
+      <tbody>
+        <tr><td>Monthly Price</td><td>$19/mo</td><td>$99/mo</td></tr>
+        <tr><td>Annual Price</td><td>$180/yr</td><td>$950/yr</td></tr>
+        <tr><td>Active Colleges</td><td>10 max</td><td>20 max</td></tr>
+        <tr><td>Archive Function</td><td>No</td><td>Yes — unlimited</td></tr>
+        <tr><td>Personality Quiz Result</td><td>Text summary</td><td>Full mood board</td></tr>
+        <tr><td>AI Matching</td><td>No</td><td>Yes</td></tr>
+        <tr><td>Retainer Consulting</td><td>Not available</td><td>Available</td></tr>
+        <tr><td>Ads</td><td>Under consideration</td><td>Ad-free</td></tr>
+        <tr><td>College Connection Page</td><td>Yes</td><td>Yes</td></tr>
+      </tbody>
+    </table>
+    <p>All subscriptions are billed through Stripe. You may cancel at any time. Cancellation takes effect at the end of the current billing period.</p>
+
+    <h3 class="sub">3. Data We Collect</h3>
+    <p>When you and your student use Enrolli, we collect the following categories of information:</p>
+    <h4 class="minor">Information you provide directly:</h4>
+    <ul class="dot">
+      <li>Your name, email address, and billing information</li>
+      <li>Your student's name, grade year, and date of birth</li>
+      <li>Your student's high school name and location</li>
+      <li>Your student's self-reported GPA and test scores (not verified by Enrolli or any institution)</li>
+      <li>Your student's financial preferences and expectations</li>
+      <li>Your responses to the Parent Assessment</li>
+    </ul>
+    <h4 class="minor">Information collected automatically through platform use:</h4>
+    <ul class="dot">
+      <li>Behavioral data — time spent on college profile pages, number of visits to college profiles, colleges saved to favorites or active lists</li>
+      <li>Platform usage patterns and session data</li>
+    </ul>
+    <h4 class="minor">What we do not collect:</h4>
+    <ul class="dot">
+      <li>Official verified transcripts or school-issued grade records</li>
+      <li>Official test score reports from College Board, ACT, or any testing organization</li>
+      <li>Social Security numbers or government identification numbers</li>
+      <li>Payment card numbers (handled directly by Stripe — we do not store payment data)</li>
+    </ul>
+
+    <h3 class="sub">4. How We Use Your Data</h3>
+    <p>We use the data we collect for the following purposes:</p>
+    <ul class="dot">
+      <li>To provide the Enrolli platform and all features included in your subscription tier</li>
+      <li>To operate the College Connection feature if you have opted in (see Section 5)</li>
+      <li>To improve and develop the platform</li>
+      <li>To communicate with you about your account, subscription, and platform updates</li>
+      <li>To comply with applicable law</li>
+    </ul>
+    <p>Enrolli does not sell your personal data to advertisers. Enrolli does not use your data for targeted advertising.</p>
+
+    <h3 class="sub">5. College Connection — Affirmative Opt-In Required</h3>
+    <div class="callout">This section describes Enrolli's College Connection feature. Participation requires a separate, affirmative opt-in step during account creation. Agreeing to these Terms of Service alone does not enroll you or your student in College Connection.</div>
+
+    <h4 class="minor">What College Connection is:</h4>
+    <p>College Connection is the Enrolli feature by which your student's information and your Parent Assessment responses may be shared with admissions offices at colleges your student demonstrates meaningful interest in. The purpose is to enable those colleges to reach out directly to your student with personalized information, financial aid details, scholarship opportunities, and admissions guidance.</p>
+
+    <h4 class="minor">How to opt in:</h4>
+    <p>During account creation, you will be presented with a separate College Connection consent step — a clearly labeled checkbox or toggle, distinct from your acceptance of these Terms. You must affirmatively select this option to enroll in College Connection. Your student will separately acknowledge the feature in age-appropriate language during their own account setup. Your parental consent is the legally operative consent for data sharing purposes.</p>
+
+    <h4 class="minor">What triggers a College Connection:</h4>
+    <p>A college may receive your student's data when your student demonstrates meaningful interest through one or more of the following behaviors on the Enrolli platform:</p>
+    <ul class="dot">
+      <li>Spending a significant amount of time viewing that college's profile</li>
+      <li>Returning to that college's profile multiple times</li>
+      <li>Saving that college to their active list or marking it as a favorite</li>
+    </ul>
+
+    <h4 class="minor">What information is shared with colleges through College Connection:</h4>
+    <ul class="dot">
+      <li>Student name and contact information</li>
+      <li>Student high school name and location</li>
+      <li>Student Matching Quiz results</li>
+      <li>Parent Assessment results</li>
+      <li>Self-reported GPA — not verified by Enrolli or any institution</li>
+      <li>Self-reported test scores — not verified by Enrolli, College Board, ACT, or any testing organization</li>
+      <li>Financial preferences and expectations</li>
+      <li>Behavioral data indicating the student's level of interest in that specific college</li>
+    </ul>
+
+    <h4 class="minor">What is never shared:</h4>
+    <ul class="dot">
+      <li>Official verified transcripts or school-issued grade records</li>
+      <li>Official test score reports from College Board, ACT, or any testing organization</li>
+      <li>Payment information or financial account details</li>
+      <li>Any information not voluntarily provided to Enrolli by you or your student</li>
+    </ul>
+
+    <h4 class="minor">Who receives your data:</h4>
+    <p>Only accredited colleges and universities with active undergraduate admissions programs that have entered into a formal College Data Agreement with Enrolli may receive student and parent data through College Connection. We do not share data with unaccredited institutions, for-profit recruiting firms, or any organization unrelated to your student's college search.</p>
+
+    <h4 class="minor">Year One data policy:</h4>
+    <p>Enrolli does not share student or parent data with college admissions offices during our first year of operation. We collect and store behavioral and assessment data during year one. Before we activate College Connection for the first time, we will notify you by email and provide an opportunity to review and confirm your opt-in status. The legal infrastructure permitting College Connection is in place from the date these Terms take effect, even if the feature is not yet active.</p>
+
+    <h3 class="sub">6. Opting Out of College Connection and the Drop Process</h3>
+    <p>If you opted in to College Connection, you or your student may opt out at any time through your account dashboard. Opting out stops future data sharing. It does not retrieve data already transmitted to colleges prior to your opt-out — once a college has received your student's information through College Connection, that data exists within that college's systems and cannot be recalled by Enrolli.</p>
+
+    <h4 class="minor">College Connection page — available to all subscribers:</h4>
+    <p>All Enrolli subscribers — both Tier 1 and Tier 2 — have access to a College Connection page within their account dashboard. This page displays the colleges that have received your student's data through College Connection, the date on which data was transmitted, and the trigger that initiated the connection.</p>
+
+    <h4 class="minor">Submitting a drop or opt-out request through Enrolli:</h4>
+    <p>Through the College Connection page, you may submit a drop or opt-out request for any college that has received your student's data. When you submit a request through Enrolli:</p>
+    <ul class="dot">
+      <li>Enrolli collects each partner college's preferred drop and opt-out questions in advance.</li>
+      <li>You and your student complete a brief form on the College Connection page based on that college's preferred questions.</li>
+      <li>Enrolli submits the completed form to the college's admissions office on your student's behalf.</li>
+      <li>The college is contractually required under their College Data Agreement with Enrolli to process the drop request.</li>
+      <li>You will receive a confirmation message acknowledging that the request has been submitted.</li>
+    </ul>
+    <p>Colleges may follow up with your student once after receiving a drop request — this is standard admissions practice and may include questions about their decision. After that single contact, no further outreach based on Enrolli data is permitted under the college's agreement with Enrolli.</p>
+
+    <h4 class="minor">What the drop process does and does not guarantee:</h4>
+    <p>Enrolli's role in the drop process is to transmit your request to the college and hold the college contractually accountable for processing it. Enrolli cannot directly access or modify a college's internal CRM, database, or recruiting system. The college is responsible for removing your student from their own system in accordance with their agreement with Enrolli. If you believe a college has not honored a drop request within ten (10) business days, please contact us at <a href="mailto:hello@myenrolli.com">hello@myenrolli.com</a> and we will take action under our College Data Agreement.</p>
+    <p>You are not required to use Enrolli's drop submission process. You or your student may contact any college directly to request removal from their recruiting pipeline at any time, independent of Enrolli.</p>
+
+    <h3 class="sub">7. Enrolli's Liability</h3>
+    <h4 class="minor">What Enrolli is responsible for:</h4>
+    <ul class="dot">
+      <li>Accurately representing what data is collected and shared</li>
+      <li>Transmitting only the data categories described in Section 5 to colleges</li>
+      <li>Ensuring that only colleges with a signed College Data Agreement receive student data</li>
+      <li>Submitting drop requests to colleges on your behalf when you request it through the platform</li>
+      <li>Taking action against any college that fails to comply with its data agreement</li>
+    </ul>
+    <h4 class="minor">What Enrolli is not responsible for:</h4>
+    <ul class="dot">
+      <li>The accuracy of self-reported GPA or test scores entered by your student</li>
+      <li>Admissions outcomes at any college</li>
+      <li>A college's internal handling of data after it has been transmitted through College Connection</li>
+      <li>A college's compliance with its own internal data retention policies</li>
+      <li>Outreach initiated by colleges based on data transmitted prior to a drop request</li>
+      <li>Any representation made by a college to your student that Enrolli did not authorize or direct</li>
+    </ul>
+
+    <h3 class="sub">8. Indiana CDPA and Privacy Rights</h3>
+    <p>Enrolli is subject to the Indiana Consumer Data Protection Act (Indiana Code § 24-15 et seq.), which took effect January 1, 2026. Under applicable law, you have the following rights with respect to your personal data and your student's personal data:</p>
+    <ul class="dot">
+      <li>The right to know what personal data we collect and how we use it</li>
+      <li>The right to access the personal data we hold about you and your student</li>
+      <li>The right to correct inaccurate personal data</li>
+      <li>The right to delete personal data, subject to legal limitations</li>
+      <li>The right to opt out of the sale or sharing of personal data with third parties</li>
+      <li>The right to non-discrimination for exercising your privacy rights</li>
+    </ul>
+    <p>To exercise any of these rights, contact us at <a href="mailto:hello@myenrolli.com">hello@myenrolli.com</a>. We will respond within the timeframes required by applicable law. A full description of our data practices, your rights, and how to exercise them is set forth in our <a href="https://privacy.myenrolli.com">Privacy Policy</a>.</p>
+
+    <h3 class="sub">9. COPPA — Children's Online Privacy Protection</h3>
+    <p>Enrolli complies with the Children's Online Privacy Protection Act (COPPA), 15 U.S.C. § 6501 et seq. We do not permit children under the age of 13 to create accounts or use the platform. For students ages 13 through 15, all data collection and College Connection participation requires your affirmative parental consent as described in these Terms.</p>
+
+    <h3 class="sub">10. Intellectual Property</h3>
+    <p>All content, features, platform design, assessment methodology, matching algorithms, and data compilations on Enrolli are the exclusive intellectual property of Subtle Impact Enterprises LLC. You may not copy, reproduce, distribute, or create derivative works from any Enrolli content without our prior written consent.</p>
+
+    <h3 class="sub">11. Termination</h3>
+    <p>Either party may terminate this agreement at any time. You may cancel your subscription through your account settings. Enrolli may terminate your account for violation of these Terms, non-payment, or for any other reason with reasonable notice. Upon termination, your access to the platform will end at the close of your current billing period. Data retention following termination is governed by our Privacy Policy.</p>
+
+    <h3 class="sub">12. Limitation of Liability and Disclaimer</h3>
+    <p>The Enrolli platform is provided "as is" and "as available" without warranty of any kind. To the maximum extent permitted by applicable law, Enrolli disclaims all warranties, express or implied, including warranties of merchantability, fitness for a particular purpose, and non-infringement.</p>
+    <p>In no event shall Enrolli be liable for any indirect, incidental, special, consequential, or punitive damages arising out of or related to your use of the platform, including but not limited to loss of data, college admissions outcomes, or reliance on platform content.</p>
+
+    <h3 class="sub">13. Governing Law</h3>
+    <p>These Terms shall be governed by the laws of the State of Indiana. Any dispute arising from these Terms shall be brought in the state or federal courts of Vanderburgh County, Indiana.</p>
+
+    <h3 class="sub">14. Changes to These Terms</h3>
+    <p>Enrolli may update these Terms from time to time. We will notify you of material changes by email and by posting a notice on the platform. Your continued use of the platform after notice constitutes acceptance of the updated Terms.</p>
+
+    <a class="back-to-top" href="#overview">↑ Back to top</a>
+  </section>
+
+  <hr class="divider">
+
+  <!-- STUDENTS -->
+  <section class="doc-section" id="students">
+    <h2 class="section-title">For Students</h2>
+    <div class="section-subtitle">Student Terms of Service</div>
+
+    <div class="callout">Welcome to Enrolli. These Terms explain how our platform works and what you're agreeing to when you use it. Your parent or guardian has already reviewed and agreed to our Parent &amp; Guardian Terms above, which governs data sharing and legal consent. This section is written for you so you understand what Enrolli does and what your rights are.</div>
+
+    <h3 class="sub">1. Who Can Use Enrolli</h3>
+    <p>Enrolli is available to students in grades 10 through 12 (and some students in grade 9, with parent approval). You must be at least 13 years old to use Enrolli. Students under 13 are not permitted on the platform.</p>
+    <p>Your parent or guardian created your account and agreed to our Parent Terms on your behalf. That agreement governs how your data is used. This section helps you understand what we do and what you can do on the platform.</p>
+
+    <h3 class="sub">2. What Enrolli Does</h3>
+    <p>Enrolli is a college search and matching platform. Here's what you can do on the platform:</p>
+    <ul class="dot">
+      <li>Search a database of colleges filtered by what matters to you</li>
+      <li>Take a personality quiz to find colleges that match your vibe and values</li>
+      <li>Save colleges to your active list and track your progress with checklists</li>
+      <li>Learn about what it's really like to attend colleges through real campus culture data</li>
+    </ul>
+    <p>Depending on your subscription tier, you may also have access to AI-powered college matching, a full mood board quiz result, and the ability to archive colleges without losing your progress.</p>
+
+    <h3 class="sub">3. What We Collect About You</h3>
+    <h4 class="minor">Information you give us:</h4>
+    <ul class="dot">
+      <li>Your name and contact information</li>
+      <li>Your high school name and location</li>
+      <li>Your self-reported GPA and test scores (these are entered by you — they are not verified by Enrolli or any school or testing organization)</li>
+      <li>Your quiz and assessment responses</li>
+      <li>Your financial preferences and expectations for college</li>
+    </ul>
+    <h4 class="minor">Information collected automatically when you use Enrolli:</h4>
+    <ul class="dot">
+      <li>How long you spend looking at college profiles</li>
+      <li>How many times you visit a college's profile page</li>
+      <li>Which colleges you save to your list or mark as favorites</li>
+    </ul>
+    <p>We collect this behavioral information because it helps us understand which colleges you're genuinely interested in. It's also used in our College Connection feature, described below.</p>
+
+    <h3 class="sub">4. College Connection — What It Is and How It Works</h3>
+    <div class="callout">This section is important. Please read it carefully.</div>
+    <p>College Connection is the feature that may share your information with admissions offices at colleges you show strong interest in, so those colleges can reach out to you with personalized information, scholarship opportunities, and support.</p>
+
+    <h4 class="minor">Your parent opted in on your behalf:</h4>
+    <p>College Connection is an opt-in feature. Your parent or guardian made a separate choice to enroll you in College Connection during account setup — it was not automatic. If your parent did not opt in, your information is not shared with colleges.</p>
+
+    <h4 class="minor">What triggers a College Connection:</h4>
+    <ul class="dot">
+      <li>Spending a lot of time looking at a specific college's profile</li>
+      <li>Visiting a college's profile multiple times</li>
+      <li>Saving a college to your active list or marking it as a favorite</li>
+    </ul>
+
+    <h4 class="minor">What gets shared with colleges:</h4>
+    <ul class="dot">
+      <li>Your name and contact information</li>
+      <li>Your high school name and location</li>
+      <li>Your quiz results</li>
+      <li>Your parent's assessment results</li>
+      <li>Your self-reported GPA and test scores</li>
+      <li>Your financial preferences</li>
+      <li>A summary of your interest level in that specific college</li>
+    </ul>
+
+    <h4 class="minor">What is never shared:</h4>
+    <ul class="dot">
+      <li>Your official transcripts or school records</li>
+      <li>Your official test score reports</li>
+      <li>Your payment or billing information</li>
+      <li>Anything you did not put into Enrolli yourself</li>
+    </ul>
+
+    <h3 class="sub">5. Your College Connection Page — Opting Out and Dropping</h3>
+    <p>All Enrolli subscribers have access to a College Connection page in their dashboard. This page shows you which colleges have received your information through College Connection, when it was shared, and what triggered the connection.</p>
+    <h4 class="minor">You can opt out or submit a drop request at any time:</h4>
+    <p>If you want a college to stop receiving your information — or if you want to formally drop from a college's recruiting pipeline — you can do that through the College Connection page:</p>
+    <ul class="dot">
+      <li>Select the college you want to drop from your College Connection page.</li>
+      <li>Complete a short form. The questions come from that college — they usually want to know where you decided to go, why you opted out, or similar things.</li>
+      <li>Enrolli submits the form to the college on your behalf.</li>
+      <li>The college is required under their agreement with Enrolli to process your request.</li>
+      <li>The college may reach out to you once after receiving your request — this is normal and doesn't mean they're ignoring you. After that one contact, they can't keep reaching out to you based on Enrolli data.</li>
+    </ul>
+    <p>Opting out stops future sharing. Information already sent to a college before your opt-out can't be taken back — that data is in their system. But you can always contact colleges directly too, without going through Enrolli.</p>
+
+    <h3 class="sub">6. Your Privacy Rights</h3>
+    <p>You have rights regarding your personal information, including the right to know what we collect, the right to access your data, the right to correct inaccurate information, and the right to request deletion of your data. Because you are a minor, your parent or guardian manages these rights on your behalf. They can contact us at <a href="mailto:hello@myenrolli.com">hello@myenrolli.com</a> to make a request.</p>
+
+    <h3 class="sub">7. How to Use Enrolli Responsibly</h3>
+    <ul class="dot">
+      <li>Be accurate. Your GPA and test scores are self-reported. Entering inaccurate information may affect how colleges engage with you.</li>
+      <li>Be thoughtful about your favorites list. Saving a college may trigger College Connection if your parent opted in.</li>
+      <li>Don't share your account. Your account is for you only.</li>
+      <li>Don't submit content that is false, misleading, or harmful.</li>
+    </ul>
+
+    <h3 class="sub">8. Intellectual Property</h3>
+    <p>Everything on Enrolli — the database, the quiz, the matching system, the campus culture data, the platform design — belongs to Subtle Impact Enterprises LLC. You can use it for your personal college search. You may not copy, share, or reproduce it outside the platform.</p>
+
+    <a class="back-to-top" href="#overview">↑ Back to top</a>
+  </section>
+
+  <hr class="divider">
+
+  <section class="doc-section" id="contact">
+    <h2 class="section-title">Questions?</h2>
+    <div class="contact-card">
+      <p><strong>Subtle Impact Enterprises LLC</strong></p>
+      <p>Evansville, Vanderburgh County, Indiana</p>
+      <p>Email: <a href="mailto:hello@myenrolli.com">hello@myenrolli.com</a></p>
+      <p>Website: <a href="https://myenrolli.com">myenrolli.com</a></p>
+    </div>
+  </section>
+
+</main>
+
+<footer>
+  <span class="wordmark">
+    <span>e</span><span>n</span><span>r</span><span>o</span><span>l</span><span>l</span><span>i</span><span class="dot">.</span>
+  </span>
+  <div class="socials">
+    <a href="https://www.tiktok.com/@myenrolli?_r=1&_t=ZT-97xfWACbz9K">TikTok</a> ·
+    <a href="https://www.instagram.com/myenrolli?igsh=NGEwcGt6YXZ0NjFz&utm_source=qr">Instagram</a> ·
+    <a href="https://www.facebook.com/share/1JXhRo7fWq/?mibextid=wwXIfr">Facebook</a>
+  </div>
+  <div class="copy">
+    © 2026 Subtle Impact Enterprises LLC. All rights reserved. &nbsp;|&nbsp; <a href="https://privacy.myenrolli.com">Privacy Policy</a>
+  </div>
+</footer>
+
+</body>
+</html>
